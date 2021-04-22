@@ -4,6 +4,6 @@ The main purpose of this integration is to run a container in isolation which is
 
 Folder Structure 
 --------------------------------------------------------------------------------------------------------------------------------------------
-[] Container - react app which acts as an outer shell for both home and dashboard. Uses routerhistory to maintain navigation.
-[] app-home - react app customized using webpack. Expose home as remoteEntry file to container via module federation. Uses mem based history navigation.
-[] app-dashboard - typescript app bootstrapped using create-react-app. Added custom webpack config to override default config.
+* Container - react app which acts as an outer shell for both home and dashboard. Uses routerhistory to maintain navigation.
+* app-home - react app customized using webpack. Expose home as remoteEntry file to container via module federation. Uses mem based history navigation.
+* app-dashboard - typescript app bootstrapped using create-react-app. Added custom webpack config to override default config.
